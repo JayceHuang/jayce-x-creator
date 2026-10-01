@@ -11,7 +11,11 @@
 
 详细的方法论、执行步骤、提示词、素材库 SOP、短推/长文工作流、账号养成与变现案例，见飞书文档：
 
-[《X 自媒体工作流》完整介绍](https://my.feishu.cn/wiki/WCfcwBSNqi6NU5kySaoc38fVnde?from=from_copylink)
+[《X 自媒体工作流》开源版：写于 2026 年 5 月](https://my.feishu.cn/wiki/WCfcwBSNqi6NU5kySaoc38fVnde?from=from_copylink)
+
+如有需要，请支持持续更新版⬇️：
+
+【FlowUs 息流】50天3万粉，1个月3000刀，X增长焚决: (https://flowus.cn/share/08d68f8b-5968-4b5e-a5d5-291de4b3ae4c?code=MHY8N7)
 
 # xiaomu_x_creator
 
