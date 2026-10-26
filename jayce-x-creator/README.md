@@ -39,10 +39,10 @@
 1. 把本目录复制到你的 Claude Code skills 目录：
 
 ```bash
-cp -r jayce-xiaomu-x-creator ~/.claude/skills/jayce-xiaomu-x-creator
+cp -r jayce-x-creator ~/.claude/skills/jayce-x-creator
 ```
 
-2. 在 Claude Code 中说 `jayce-xiaomu-x-creator init` 或 `初始化推特运营`，按提示完成配置。
+2. 在 Claude Code 中说 `jayce-x-creator init` 或 `初始化推特运营`，按提示完成配置。
 
 Init 会自动创建工作目录：
 
@@ -72,7 +72,7 @@ Init 会自动创建工作目录：
 ## Skill Structure
 
 ```
-jayce-xiaomu-x-creator/
+jayce-x-creator/
 ├── SKILL.md                      # Skill 入口定义
 ├── modules/
 │   ├── scheduler.md              # 排期模块

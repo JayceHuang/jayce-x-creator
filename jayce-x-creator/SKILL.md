@@ -1,10 +1,10 @@
 ---
-name: jayce-xiaomu-x-creator
+name: jayce-x-creator
 description: |
   推特运营工具 — 排期发布 + 短推改写，两个核心功能。
   首次使用先运行 init 初始化工作目录。
-  触发词：推特运营、排推文、写短推、改写短推、推特排期、jayce-xiaomu-x-creator。
-  init触发词：jayce-xiaomu-x-creator init、初始化推特运营。
+  触发词：推特运营、排推文、写短推、改写短推、推特排期、jayce-x-creator。
+  init触发词：jayce-x-creator init、初始化推特运营。
 metadata:
   tags: "jayce-skill"
 ---
@@ -33,7 +33,7 @@ metadata:
 
 | 用户说了什么 | 进入 |
 |-------------|------|
-| "jayce-xiaomu-x-creator init" / "初始化推特运营" | → **Init 流程** |
+| "jayce-x-creator init" / "初始化推特运营" | → **Init 流程** |
 | "排下一期推文" / "推特排期" / "排推文" / "进入推特运营" | → **排期模块**（读 modules/scheduler.md） |
 | "写短推" / "改写短推" / "帮我写条推" / "这个写成推文" / 直接贴内容+"写成短推" | → **改写模块**（读 modules/distiller.md） |
 | 发一个推特用户名/链接 | → 更新 benchmarks.md |

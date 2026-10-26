@@ -69,4 +69,4 @@ npm install
 - **迭代者**：@ai_xiaomu
 - **最后更新**：2026-07-25
 
-本 skill 由 @bainianAI 原创，@ai_xiaomu 负责在 `jayce-xiaomu-x-creator` 中的迭代适配与工程说明维护。
+本 skill 由 @bainianAI 原创，@ai_xiaomu 负责在 `jayce-x-creator` 中的迭代适配与工程说明维护。
