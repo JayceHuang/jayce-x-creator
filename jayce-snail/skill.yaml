@@ -1,9 +1,9 @@
-name: snail
+name: jayce-snail
 description: 长文标题与封面配文生成器 — 读完长文后为多平台生成适配的标题+封面配文方案（微信/X/LinkedIn/小红书），融合爆款模板与哲学认知劫持双体系
 version: 1.0.1
 author: "@ai_xiaomu"
 triggers:
-  - /snail
+  - /jayce-snail
   - 生成标题
   - 起标题
   - 标题生成
@@ -18,3 +18,4 @@ tags:
   - multi-platform
   - chinese
   - english
+  - jayce-skill

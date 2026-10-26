@@ -1,4 +1,4 @@
-name: article-to-social-cards
+name: jayce-article-to-social-cards
 description: 将 Markdown 长文重写、分页并排版成 1080×1440 社媒图卡，可批量导出 PNG，适用于小红书和抖音图文。
 version: 1.0.0
 author: "@bainianAI"
@@ -19,3 +19,4 @@ tags:
   - social-cards
   - markdown
   - chinese
+  - jayce-skill

@@ -1,4 +1,6 @@
-# article-to-social-cards
+# jayce-article-to-social-cards
+
+标签：[`jayce-skill`](https://github.com/topics/jayce-skill)
 
 > 把 Markdown 长文重写、分页并排版成 1080×1440 社媒图卡，可批量导出 PNG，适用于小红书和抖音图文。
 
@@ -20,13 +22,13 @@
 把本目录复制到 Claude Code skills 目录：
 
 ```bash
-cp -r article-to-social-cards ~/.claude/skills/article-to-social-cards
+cp -r jayce-article-to-social-cards ~/.claude/skills/jayce-article-to-social-cards
 ```
 
 ### 2. 安装依赖
 
 ```bash
-cd ~/.claude/skills/article-to-social-cards
+cd ~/.claude/skills/jayce-article-to-social-cards
 npm install
 ```
 
@@ -67,4 +69,4 @@ npm install
 - **迭代者**：@ai_xiaomu
 - **最后更新**：2026-07-25
 
-本 skill 由 @bainianAI 原创，@ai_xiaomu 负责在 `xiaomu_x_creator` 中的迭代适配与工程说明维护。
+本 skill 由 @bainianAI 原创，@ai_xiaomu 负责在 `jayce-xiaomu-x-creator` 中的迭代适配与工程说明维护。

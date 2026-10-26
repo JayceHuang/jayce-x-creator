@@ -1,9 +1,11 @@
 ---
-name: article-to-social-cards
+name: jayce-article-to-social-cards
 description: 将 Markdown 长文重写、分页并排版成 1080×1440 社媒图卡，可批量导出 PNG，适用于小红书和抖音图文。用户要求“长文转图片”“文章转图卡”“生成小红书图文”“做小红书长图”“抖音图文”“做图文”“发小红书”“发抖音”或“图集”时使用。
+metadata:
+  tags: "jayce-skill"
 ---
 
-# 长文转社媒图卡
+# Jayce · 长文转社媒图卡
 
 ## 作者与迭代
 
@@ -131,7 +133,7 @@ description: 将 Markdown 长文重写、分页并排版成 1080×1440 社媒图
 把文章里图片路径转换为压缩后的 base64:
 
 ```bash
-cd ~/.claude/skills/article-to-social-cards && node prepare.mjs /tmp/article.md /tmp/article-final.md
+cd ~/.claude/skills/jayce-article-to-social-cards && node prepare.mjs /tmp/article.md /tmp/article-final.md
 ```
 
 这一步会:
@@ -142,7 +144,7 @@ cd ~/.claude/skills/article-to-social-cards && node prepare.mjs /tmp/article.md 
 ### Phase 5: 生成 HTML
 
 ```bash
-cd ~/.claude/skills/article-to-social-cards && node run.js \
+cd ~/.claude/skills/jayce-article-to-social-cards && node run.js \
   --markdown /tmp/article-final.md \
   --cover /tmp/cover.json \
   --output /tmp/output.html \
@@ -278,7 +280,7 @@ cd ~/.claude/skills/article-to-social-cards && node run.js \
 ## 文件结构
 
 ```
-~/.claude/skills/article-to-social-cards/
+~/.claude/skills/jayce-article-to-social-cards/
 ├── SKILL.md              # 本文件
 ├── package.json          # 依赖:marked, highlight.js, sharp
 ├── run.js                # 主程序:生成自包含 HTML
@@ -293,7 +295,7 @@ cd ~/.claude/skills/article-to-social-cards && node run.js \
 ## 首次使用 Setup
 
 ```bash
-cd ~/.claude/skills/article-to-social-cards && npm install
+cd ~/.claude/skills/jayce-article-to-social-cards && npm install
 ```
 
 完成。无需其他配置。
@@ -307,16 +309,16 @@ cd ~/.claude/skills/article-to-social-cards && npm install
 ### Step 1: 把 skill 拷到自己机器
 
 ```bash
-# 假设朋友收到了 article-to-social-cards.zip,或者你直接 scp 给他
-cp -r 收到的-article-to-social-cards ~/.claude/skills/article-to-social-cards
-cd ~/.claude/skills/article-to-social-cards
+# 假设朋友收到了 jayce-article-to-social-cards.zip,或者你直接 scp 给他
+cp -r 收到的-jayce-article-to-social-cards ~/.claude/skills/jayce-article-to-social-cards
+cd ~/.claude/skills/jayce-article-to-social-cards
 npm install
 ```
 
 ### Step 2: 跑通示例(验证装成功)
 
 ```bash
-cd ~/.claude/skills/article-to-social-cards
+cd ~/.claude/skills/jayce-article-to-social-cards
 node run.js \
   --markdown examples/sample-article.md \
   --cover examples/sample-cover.json \
@@ -353,7 +355,7 @@ node run.js \
 
 ## 分发给朋友
 
-把整个 `~/.claude/skills/article-to-social-cards/` 目录拷给朋友(可以 zip 打包,也可以 git 仓库),朋友放到自己的 `~/.claude/skills/` 下,跑一次 `npm install` 就能用。
+把整个 `~/.claude/skills/jayce-article-to-social-cards/` 目录拷给朋友(可以 zip 打包,也可以 git 仓库),朋友放到自己的 `~/.claude/skills/` 下,跑一次 `npm install` 就能用。
 
 `node_modules/` 不要打包进去(占空间,朋友自己装更干净)。
 

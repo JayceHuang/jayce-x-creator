@@ -1,9 +1,11 @@
 ---
-name: dashen-x-battle-plan
+name: jayce-dashen-x-battle-plan
 description: 为X（推特）账号生成专业内容作战计划Markdown报告，由 dashen.wang（AI最严厉的父亲）出品。当用户想要分析自己或他人的X账号数据、制定内容策略、生成30天创作计划、分析推特数据CSV、复盘上期计划执行情况时，必须调用本skill。触发词包括：内容作战计划、X创作计划、推特内容策略、分析我的X数据、帮我做个创作计划、做个X账号分析报告、X流量分析、内容规划MD、内容规划Markdown、dashen作战计划、复盘上期计划、我要复盘、7天复盘、季度复盘。支持首次分析、7天执行复盘、季度深度复盘三种模式，通过账号护照JSON文件实现跨会话数据追踪，无需数据库，用户本地保存即可。
+metadata:
+  tags: "jayce-skill"
 ---
 
-# dashen-x-battle-plan  v2
+# jayce-dashen-x-battle-plan  v2
 ## X内容作战计划生成器 · by dashen.wang
 
 ## 概述

@@ -1,5 +1,7 @@
 #  AI 驱动的推特内容系统
 
+标签：[`jayce-skill`](https://github.com/topics/jayce-skill)
+
 > A Claude Code skill that turns your notes and ideas into publish-ready tweets.
 
 一个 [Claude Code](https://claude.ai/code) skill，把你的笔记、文章、收藏素材萃取成可直接发布的推特短推。
@@ -37,10 +39,10 @@
 1. 把本目录复制到你的 Claude Code skills 目录：
 
 ```bash
-cp -r xiaomu-x-creator ~/.claude/skills/xiaomu-x-creator
+cp -r jayce-xiaomu-x-creator ~/.claude/skills/jayce-xiaomu-x-creator
 ```
 
-2. 在 Claude Code 中说 `xiaomu-x-creator init` 或 `初始化推特运营`，按提示完成配置。
+2. 在 Claude Code 中说 `jayce-xiaomu-x-creator init` 或 `初始化推特运营`，按提示完成配置。
 
 Init 会自动创建工作目录：
 
@@ -70,7 +72,7 @@ Init 会自动创建工作目录：
 ## Skill Structure
 
 ```
-xiaomu-x-creator/
+jayce-xiaomu-x-creator/
 ├── SKILL.md                      # Skill 入口定义
 ├── modules/
 │   ├── scheduler.md              # 排期模块

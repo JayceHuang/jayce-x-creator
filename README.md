@@ -19,14 +19,16 @@
 
 【FlowUs 息流】50天3万粉，1个月3000刀，X增长焚决: (https://flowus.cn/share/08d68f8b-5968-4b5e-a5d5-291de4b3ae4c?code=MHY8N7)
 
-# xiaomu_x_creator
+# jayce-xiaomu-x-creator
+
+标签：[`jayce-skill`](https://github.com/topics/jayce-skill)
 
 > 一套面向 X（原 Twitter）的 AI 自媒体运营工作流。
 > 从账号定位、冷启动、素材积累，到短推/长文生产、排期发布、数据复盘与变现，提供一套可以反复执行的内容系统。
 
 ## 这是什么？
 
-`xiaomu_x_creator` 不是一个只负责“让 AI 写几条推文”的提示词集合，而是一套围绕 X 自媒体运营搭建的工具箱：
+`jayce-xiaomu-x-creator` 不是一个只负责“让 AI 写几条推文”的提示词集合，而是一套围绕 X 自媒体运营搭建的工具箱：
 
 - 用定位和对标，确定你是谁、服务谁、靠什么内容吸粉；
 - 用故事完成冷启动，再用干货接住流量；
@@ -44,21 +46,21 @@
 
 | 路径 / 工具 | 在工作流中的位置 | 作用 |
 |------|------|------|
-| `xiaomu_x_creator-main/` | 运营主 skill | 初始化 X 内容工作区，管理素材、写作风格、对标账号，生成排期，并把长文/笔记萃取为短推。 |
-| `dashen-x-battle-plan-v2/` | 数据与复盘 | 读取 X Premium 导出的 CSV，生成内容分析、执行计划、复盘报告和账号护照 JSON。 |
-| `getname/` | 标题与包装 | 为长文生成适配 X、公众号、小红书、LinkedIn 等平台的标题和封面配文。 |
+| `jayce-xiaomu-x-creator/` | 运营主 skill | 初始化 X 内容工作区，管理素材、写作风格、对标账号，生成排期，并把长文/笔记萃取为短推。 |
+| `jayce-dashen-x-battle-plan/` | 数据与复盘 | 读取 X Premium 导出的 CSV，生成内容分析、执行计划、复盘报告和账号护照 JSON。 |
+| `jayce-snail/` | 标题与包装 | 为长文生成适配 X、公众号、小红书、LinkedIn 等平台的标题和封面配文。 |
 | `x-article-in-obsidian/` | 长文发布 | 在 Obsidian 中预览 X Article 风格内容，并辅助排版和发布。 |
-| `article-to-social-cards/` | 内容再分发 | 将 Markdown 长文重写并排版为小红书/抖音图卡 PNG。 |
+| `jayce-article-to-social-cards/` | 内容再分发 | 将 Markdown 长文重写并排版为小红书/抖音图卡 PNG。 |
 | `minimax-h3-dual-reference/` | 视频生成 | 提供可导入 ComfyUI 的 MiniMax H3 双参考图生视频工作流及模型配置说明。 |
 | [X Viral Monitor](https://chromewebstore.google.com/detail/x-viral-monitor/dkplofpecmjmbhgjgleeflcnfgfkdfpd) | 热点与素材 | 监控 X 推文热度、传播速度和排行榜，并支持复制为 Markdown。 |
 | `多平台封面图生成器.html` | 视觉物料 | 本地生成 X 横版、抖音横竖版封面 PNG。 |
 
 ## 推荐使用顺序
 
-1. 先阅读 `xiaomu_x_creator-main/`，完成账号定位、写作风格和对标账号配置。
+1. 先阅读 `jayce-xiaomu-x-creator/`，完成账号定位、写作风格和对标账号配置。
 2. 建立自己的 Markdown 素材库，持续收集视频、文章、推文、播客和高传播案例。
-3. 用主 skill 生成短推排期，再按需要使用 `getname/`、`x-article-in-obsidian/` 和 `article-to-social-cards/` 完成长文、标题与图卡。
-4. 有了一段时间的数据后，把 X Premium 的内容分析 CSV 交给 `dashen-x-battle-plan-v2/`，做内容分析和下一阶段计划。
+3. 用主 skill 生成短推排期，再按需要使用 `jayce-snail/`、`x-article-in-obsidian/` 和 `jayce-article-to-social-cards/` 完成长文、标题与图卡。
+4. 有了一段时间的数据后，把 X Premium 的内容分析 CSV 交给 `jayce-dashen-x-battle-plan/`，做内容分析和下一阶段计划。
 5. 根据复盘结果更新定位、素材库、选题和排期，形成“生产—发布—复盘”的循环。
 
 各目录中都有对应的 `README.md` 或 `SKILL.md`，请以目录内说明为准。
